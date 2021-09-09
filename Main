@@ -1,0 +1,138 @@
+import java.util.Scanner;
+class mine
+{
+    public static void main(String args[])
+    {
+          Scanner reader = new Scanner(System.in);
+        System.out.println("if an AC source is connected to ______, then the current\nlags by a phase of \u03C0/2");
+        System.out.println("a. Inductor");
+        System.out.println("b. Capacitor");
+        System.out.println("c. Resistor");
+        System.out.println("d. None of the above");
+        
+        String response = reader.nextLine();
+        if (response.equals("a"))
+        {
+            System.out.println("Great,your answer is right");
+        }
+        else
+        {
+            System.out.println("It's a wrong answer but GOOD TRY");
+        }
+        System.out.println("\nType the word 'next' to continue");
+        String sen = reader.nextLine();
+        if (sen.equals("next"))
+        {
+            System.out.println("");
+        }
+        else
+        {
+            System.out.println(" Type the word 'next' and click on ENTER");
+        }
+        Scanner lol = new Scanner(System.in);
+        System.out.println("What is the source of eleetromagnatic wave");
+        System.out.println("a. A moving charge");
+        System.out.println("b. a stationary charge");
+        System.out.println("c. An accelerating");
+        System.out.println("d. Both a. and c.");
+        
+        String response1 = lol.nextLine();
+        if (response1.equals("c"))
+        {
+            System.out.println("Great,your answer is right");
+        }
+        else
+        {
+            System.out.println("It's a wrong answer but GOOD TRY");
+        }
+         System.out.println("\nType the word 'next' to continue");
+        String sen1 = reader.nextLine();
+        if (sen1.equals("next"))
+        {
+            System.out.println("");
+        }
+        else
+        {
+            System.out.println(" Type the word 'next' and click on ENTER");
+        }
+        Scanner lol1 = new Scanner(System.in);
+        System.out.println("Magnatic feild can not exert force on");
+        System.out.println("a.An accelerating charge");
+        System.out.println("b. a stationary charge");
+        System.out.println("c.A moving charge");
+        System.out.println("d. Both a. and c.");
+        
+        String response2 = lol1.nextLine();
+        if (response2.equals("b"))
+        {
+            System.out.println("Great,your answer is right");
+        }
+        else
+        {
+             System.out.println("It's a wrong answer but GOOD TRY");
+        }
+        System.out.println("\nType the word 'next' to continue");
+        String sen2 = reader.nextLine();
+        if (sen2.equals("next"))
+        {
+            System.out.println("");
+        }
+        else
+        {
+            System.out.println(" Type the word 'next' and click on ENTER");
+        }
+         Scanner lol2 = new Scanner(System.in);
+        System.out.println("In frawm hoffer's single slit diffraton, \nphase diifferent of \u03C0 between tow light waves leads to");
+        System.out.println("a. Constructure interfrance");
+        System.out.println("b. Destructive interfrance ");
+        System.out.println("c. No interfarence");
+        System.out.println("d. none of the above");
+        
+        
+        String response3 = lol1.nextLine();
+        if (response3.equals("b"))
+        {
+            System.out.println("Great,your answer is right");
+        }
+        else
+        {
+             System.out.println("It's a wrong answer but GOOD TRY");
+        }
+        System.out.println("\nType the word 'next' to continue");
+        String sen3 = reader.nextLine();
+        if (sen3.equals("next"))
+        {
+            System.out.println("");
+        }
+        else
+        {
+            System.out.println(" Type the word 'next' and click on ENTER");
+        }
+        Scanner lol3 = new Scanner(System.in);
+        System.out.println("Eddy current loss can be prevented by using");
+        System.out.println("a. Non-metals");
+        System.out.println("b. plastic covering");
+        System.out.println("c. cut slots");
+        System.out.println("d. all of the above");
+        
+         String response4 = lol1.nextLine();
+        if (response4.equals("c"))
+        {
+            System.out.println("Great,your answer is right");
+        }
+        else
+        {
+             System.out.println("It's a wrong answer but GOOD TRY");
+        }
+        System.out.println("\nType the word 'next' to continue");
+        String sen4 = reader.nextLine();
+        if (sen4.equals("next"))
+        {
+            System.out.println("");
+        }
+        else
+        {
+            System.out.println(" Type the word 'next' and click on ENTER");
+        }
+    }
+}
